@@ -7,10 +7,7 @@ geod = Geod(ellps="WGS84")
 stops = [
     {"city": "Berlin, Germany", "lat": 50.9375, "lon": 6.9603, "popup": "Dual B.Sc. Business Informatics (2022-2025) 🎓"},
     {"city": "Berlin, Germany", "lat": 50.9375, "lon": 6.9603, "popup": "M.Sc. Business Intelligence & Process Management 🎓"},
-    {"city": "Atlanta, GA", "lat": 33.7490, "lon": -84.3880, "popup": "Postdoc Georgia Tech (1997-1999) 🧠"},
-    {"city": "Princeton, NJ", "lat": 40.3573, "lon": -74.6672, "popup": "Siemens Research (2000-2006) 💼"},
-    {"city": "Manhattan, NY", "lat": 40.7831, "lon": -73.9712, "popup": "Startup (2006-2011) 💻"},
-    {"city": "Berlin, Germany", "lat": 52.5200, "lon": 13.4050, "popup": "University (2011-Now) 🏫"}
+    {"city": "Alicante, Spain", "lat": 33.7490, "lon": -84.3880, "popup": "Exchange Semester 🧠"},
 ]
 
 # Create map

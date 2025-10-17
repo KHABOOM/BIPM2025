@@ -5,9 +5,11 @@ geod = Geod(ellps="WGS84")
 
 # Define stops
 stops = [
+    {"city": "Berlin, Germany", "lat": 50.9375, "lon": 6.9603, "popup": "Volunteer Year Hospital (2021-2022) ❤️‍🩹"},
     {"city": "Berlin, Germany", "lat": 50.9375, "lon": 6.9603, "popup": "Dual B.Sc. Business Informatics (2022-2025) 🎓"},
-    {"city": "Berlin, Germany", "lat": 50.9375, "lon": 6.9603, "popup": "M.Sc. Business Intelligence & Process Management 🎓"},
-    {"city": "Alicante, Spain", "lat": 33.7490, "lon": -84.3880, "popup": "Exchange Semester 🧠"},
+    {"city": "Alicante, Spain", "lat": 33.7490, "lon": -84.3880, "popup": "Exchange Semester (2024-2025) 🌇"},
+    {"city": "Berlin, Germany", "lat": 50.9375, "lon": 6.9603, "popup": "M.Sc. Business Intelligence & Process Management 🧠"},
+    
 ]
 
 # Create map
@@ -46,4 +48,4 @@ for i in range(len(stops) - 1):
 
 # Save and open
 m.save("academic_journey_map.html")
-#import webbrowser; webbrowser.open("academic_journey_map.html")
+import webbrowser; webbrowser.open("academic_journey_map.html")

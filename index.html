@@ -1,44 +1,303 @@
-<h1 id="markus-loecher-s-story">Khalil El-Chaer&#39;s Story</h1>
-<p>Current Position</p>
-<p>Khalil El-Chaer</p>
-<p>Student</p>
-<p>Berlin School of Economics and Law</p>
-<p><a href="https://www.linkedin.com/in/khalil-el-chaer-478aa733a/">https://www.linkedin.com/in/khalil-el-chaer-478aa733a/</a></p>
-<p><a href="https://github.com/KHABOOM/">https://github.com/KHABOOM/</a></p>
-<h3 id="born-and-raised">Born and Raised</h3>
-<p>[Berlin, Germany]</p>
-<h3 id="what-i-like">What I like</h3>
-<h3 id="academic-journey">Academic Journey</h3>
-<h4 id="-stops-along-the-way">🎓 Stops Along the Way</h4>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">Period</th>
-<th style="text-align:left">Location</th>
-<th style="text-align:left">Role</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">2021-22</td>
-<td style="text-align:left">Berlin, Germany</td>
-<td style="text-align:left">Volunteer Year</td>
-</tr>
-<tr>
-<td style="text-align:left">2022–25</td>
-<td style="text-align:left">Berlin, Germany</td>
-<td style="text-align:left">Dual B.Sc. Business Informatics</td>
-</tr>
-<tr>
-<td style="text-align:left">2024-25</td>
-<td style="text-align:left">Alicante, Spain</td>
-<td style="text-align:left">Exchange Semester</td>
-</tr>
-<tr>
-<td style="text-align:left">2025-27</td>
-<td style="text-align:left">Berlin, Germany</td>
-<td style="text-align:left">M.Sc. BIPM</td>
-</tr>
-</tbody>
-</table>
-<iframe src="academic_journey_map.html" width="800" height="600" style="border:none;"></iframe>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khalil El-Chaer | Data Science Assignment</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #57305f;
+            --secondary: #163828;
+            --accent: #c7aa4b;
+            --light: #ecf0f1;
+            --dark: #a1a5a4;
+            --gray: #95a5a6;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            background-image: url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fthewisdomdaily.com%2Fwp-content%2Fuploads%2F2016%2F05%2Fharambe_gorilla-1200x800.jpg&f=1&nofb=1&ipt=5df073041388461dbb2d74748fbdc4b06d8faaf91cbb1e083d29508f52313f1a');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 80px 0 60px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        header::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(44, 62, 80, 0.7); /* Dark overlay for better text readability */
+        }
+        
+        .profile-section {
+            position: relative;
+            z-index: 1;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            opacity: 0.9;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        }
+        
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .social-links a {
+            color: white;
+            background-color: rgba(255, 255, 255, 0.2);
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        
+        .social-links a:hover {
+            background-color: white;
+            color: var(--secondary);
+            transform: translateY(-3px);
+        }
+        
+        section {
+            padding: 60px 0;
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 40px;
+            color: var(--primary);
+            position: relative;
+        }
+        
+        .section-title::after {
+            content: "";
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 3px;
+            background-color: var(--secondary);
+        }
+        
+        .info-card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            margin-bottom: 30px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .info-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        
+        .info-card h3 {
+            color: var(--secondary);
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .info-card h3 i {
+            color: var(--accent);
+        }
+        
+        .academic-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        
+        .academic-table th {
+            background-color: var(--primary);
+            color: white;
+            padding: 12px 15px;
+            text-align: left;
+        }
+        
+        .academic-table td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .academic-table tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+        
+        .academic-table tr:hover {
+            background-color: #e9f7fe;
+        }
+        
+        .badge {
+            display: inline-block;
+            background-color: var(--secondary);
+            color: white;
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            margin-right: 5px;
+            margin-bottom: 10px;
+        }
+        
+        footer {
+            background-color: var(--primary);
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+            margin-top: 40px;
+        }
+        
+        @media (max-width: 768px) {
+            .academic-table {
+                display: block;
+                overflow-x: auto;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="profile-section">
+                <h1>Khalil El-Chaer</h1>
+                <p class="subtitle">Student | Berlin School of Economics and Law</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/khalil-el-chaer-478aa733a/" title="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/KHABOOM/" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <section id="current-position">
+        <div class="container">
+            <h2 class="section-title">Current Position</h2>
+            <div class="info-card">
+                <h3><i class="fas fa-briefcase"></i> Professional Status</h3>
+                <p>Master Student in M.Sc. Business Intelligence & Process Management</p>
+                <p>Junior IT Project Manager at BEW GmbH</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="background">
+        <div class="container">
+            <h2 class="section-title">Personal Background</h2>
+            <div class="info-card">
+                <h3><i class="fas fa-map-marker-alt"></i> Born and Raised</h3>
+                <p>Berlin, Germany</p>
+            </div>
+            <div class="info-card">
+                <h3><i class="fas fa-heart"></i> What I Like</h3>
+                <div class="badges">
+                    <span class="badge">You</span>
+                    <span class="badge">To learn stuff</span>
+                    <span class="badge">Music</span>
+                    <span class="badge">Sports</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="academic-journey">
+        <div class="container">
+            <h2 class="section-title">Academic Journey</h2>
+            <div class="info-card">
+                <h3><i class="fas fa-graduation-cap"></i> Stops Along the Way</h3>
+                <table class="academic-table">
+                    <thead>
+                        <tr>
+                            <th>Period</th>
+                            <th>Location</th>
+                            <th>Role</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2021-22</td>
+                            <td>Berlin, Germany</td>
+                            <td>Volunteer Year</td>
+                        </tr>
+                        <tr>
+                            <td>2022–25</td>
+                            <td>Berlin, Germany</td>
+                            <td>Dual B.Sc. Business Informatics</td>
+                        </tr>
+                        <tr>
+                            <td>2024-25</td>
+                            <td>Alicante, Spain</td>
+                            <td>Exchange Semester</td>
+                        </tr>
+                        <tr>
+                            <td>2025-27</td>
+                            <td>Berlin, Germany</td>
+                            <td>M.Sc. BIPM</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <iframe src="academic_journey_map.html" width="800" height="600" style="border:none;"></iframe>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Khalil El-Chaer. All rights reserved. AI helped me.</p>
+        </div>
+    </footer>
+</body>
+</html>
